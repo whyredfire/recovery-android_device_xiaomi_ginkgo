@@ -16,9 +16,6 @@ Works:
 - Backup/Restore (Needs more testing)
 - USB OTG
 
-TO-DO:
-
-- Vibration support
 
 ## Compile
 
@@ -32,7 +29,7 @@ repo sync
 Then add these projects to .repo/manifest.xml:
 
 ```xml
-<project path="device/xiaomi/ginkgo" name="mauronofrio/android_device_xiaomi_ginkgo" remote="github" revision="android-9.0" />
+<project path="device/xiaomi/ginkgo" name="whyredfire/recovery-android_device_xiaomi_ginkgo" remote="github" revision="android-9.0" />
 ```
 
 Finally execute these:
